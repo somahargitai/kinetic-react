@@ -1,0 +1,46 @@
+.svg-animation-page {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.svg-animation-page h1 {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.svg-container {
+  margin: 40px 0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.svg-animated-text {
+  animation: reveal 15s forwards ease-out;
+}
+
+@keyframes reveal {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animation-info {
+  margin: 30px 0;
+  text-align: left;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.animation-info p {
+  font-family: "EB Garamond", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.navigation {
+  margin-top: 30px;
+}
