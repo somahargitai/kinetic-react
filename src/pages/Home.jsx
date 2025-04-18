@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import Button from "../components/Button";
-import SVGText from "./SvgAnimation";
 
 function Home() {
   const navigate = useNavigate();
@@ -15,13 +14,11 @@ function Home() {
           <Button onClick={() => navigate("/typewriter")}>
             Typewriter Page
           </Button>
-          <Button onClick={() => navigate("/framer-motion-text")}>
-            Framer Motion Text
-          </Button>
           <Button onClick={() => navigate("/gsap-text")}>GSAP Text</Button>
           <Button onClick={() => navigate("/svg-animation")}>
             SVG Animation
           </Button>
+          <Button onClick={() => navigate("/motion-dev")}>Motion.dev</Button>
         </div>
       </div>
     </div>

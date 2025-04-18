@@ -17,7 +17,7 @@ This interactive demo showcases different approaches to text animation in web de
 
 - React.js
 - React Router for navigation
-- Framer Motion
+- Motion (Framer Motion)
 - GSAP (GreenSock Animation Platform)
 - SVG animations with CSS
 - Modern CSS techniques

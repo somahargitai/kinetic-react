@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import Button from "../components/Button";
 
-const text = "Framer Motion Text";
+const text = "Motion.dev Text";
 
-const FramerMotionText = ({ text }) => {
+const MotionDevText = ({ text }) => {
   const navigate = useNavigate();
   const letters = text.split("");
 
@@ -23,6 +23,22 @@ const FramerMotionText = ({ text }) => {
           </motion.span>
         ))}
       </div>
+
+      <div style={{ textAlign: "right", marginTop: "1rem" }}>
+        <a
+          href="https://motion.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            fontSize: "0.675rem",
+            textTransform: "uppercase",
+            letterSpacing: "1px",
+          }}
+        >
+          Motion.dev Documentation
+        </a>
+      </div>
+
       <div className="navigation">
         <Button onClick={() => navigate("/")}>Back to Home</Button>
       </div>
@@ -30,4 +46,4 @@ const FramerMotionText = ({ text }) => {
   );
 };
 
-export default () => <FramerMotionText text={text} />;
+export default () => <MotionDevText text={text} />;
